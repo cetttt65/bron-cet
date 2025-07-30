@@ -75,7 +75,7 @@ canvas.addEventListener("click", e => {
       y,
       radius: 40,
       cooldown: 0,
-      cooldownMax: 15,
+      cooldownMax: 12,
       upgradeLevel: 1
     });
     money -= 1000;
