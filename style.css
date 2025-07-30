@@ -1,0 +1,36 @@
+body {
+  background: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#map-container {
+  position: relative;
+  display: inline-block;
+}
+
+#map {
+  width: 1000px;
+  display: block;
+}
+
+#gameCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: auto;
+}
+
+#menu {
+  margin-top: 20px;
+}
+
+#menu button {
+  margin: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}

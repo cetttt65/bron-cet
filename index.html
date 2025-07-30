@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Drone Defense UA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Захисти Україну — оберігай міста</h1>
+  <div id="map-container">
+    <img id="map" src="ukraine_map.svg" alt="Карта України">
+    <canvas id="gameCanvas"></canvas>
+  </div>
+  <p>Клікайте по карті, щоб розміщувати ППО‑батареї поруч із містом.</p>
+
+  <div id="menu">
+    <p>Гроші: <span id="money">5000</span>₴ | Сбито: <span id="score">0</span> | Хвиля: <span id="wave">1</span></p>
+    <p>Пропущено дронів: <span id="missed">0</span></p>
+    <button id="buyPPO">Купити ППО (1000₴)</button>
+    <button id="upgradePPO">Прокачати ППО (+20 радіус — 500₴)</button>
+    <button id="sellPPO">Продати вибране ППО (+1000₴)</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
